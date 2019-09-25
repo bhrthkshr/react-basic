@@ -1,15 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import Counter from './counter'
 const App: React.FC = () => {
   return (
-    <div className="App">
+    <div className="">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      
+        <div className="tb-width--172">
+        <img src={logo} className="tb-image" alt="logo" />
+        </div>
         <a
-          className="App-link"
+          className="tb-typo--h1"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"

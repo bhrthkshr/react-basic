@@ -20,10 +20,11 @@ export default class Counter extends React.Component{
 
     render () {
         return(
-            <div>
+            <div className="tb-theme--primary-bg tb-container--stretched tb-width--full tb-padding--20">
                 <p>{this.state.count}</p>
-                <button onClick={this.increment}>Increment</button>
-                <button onClick={this.decrement}>decrement</button>                
+                <button className="tb-button--primary" onClick={this.increment}>Increment</button>
+                <div className="tb-padding--12"></div>
+                <button className="tb-button--secondary" onClick={this.decrement}>decrement</button>                
             </div>
         )
     }
